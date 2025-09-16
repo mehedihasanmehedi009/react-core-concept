@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+
 export default function PlayAer() {
   const [run, getRun] = useState(0);
   const [six, getSix] = useState(0);
@@ -19,14 +19,14 @@ export default function PlayAer() {
     getSix(six + 1);
   };
   return (
-    <div className="student">
+    <div>
       <h1>This is result</h1>
       <h3>
         <small> six :{six}</small>
       </h3>
       <h3>
         <small> Singles :{Singles}</small>
-      </h3>{" "}
+      </h3>
       <h2>
         <small> Four :{four}</small>
       </h2>
